@@ -1,0 +1,55 @@
+
+ul {
+  list-style-type: none;
+}
+
+p {
+	text-align: center;
+	font-size: large;
+}
+
+.header {
+	border: solid orange;
+
+}
+span.accent {
+	color: orange;
+}
+
+
+.image {
+  max-width: 400px;
+  height: 200px;
+
+}
+.column-left {
+	float: left;
+	width: 33%;
+}
+
+.column-right {
+	float: right;
+	width: 33%;
+}
+
+.column-center {
+	display: inline-block;
+	width: 33%;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+
+
+h1 { 
+	font-family: fantasy;
+	font-size:2em;
+	border-bottom: 2px solid orange; /* The line under the title*/ 
+	border-right: 2px solid orange;  /* The line to the right of title*/
+	width: 400px; /* The width of the line*/
+	text-align: center;     /* Aligned to the width of the line, not the pictures*/
+	-moz-box-shadow:4px 4px 5px #888888; /* This is used when a property may not work on all web browsers*/
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
